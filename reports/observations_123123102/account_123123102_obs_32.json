@@ -1,0 +1,96 @@
+{
+    "observation": {
+        "previous_period_summary": {
+            "cnt_percentage": 84.27,
+            "cnt_requests": 75,
+            "losses_percentage": 0.0,
+            "losses_volume": 0
+        },
+        "current_period": {
+            "phase_one": [
+                {
+                    "protocolSessionId": "b8c6a3f7-1073-409c-9a41-1f4ba23f620e",
+                    "account": 123123102,
+                    "date": "2025-05-15T11:06:13.001",
+                    "duration": 4261.0,
+                    "used": 104913139,
+                    "losses": 0,
+                    "requests": 6,
+                    "handler": "CNT"
+                },
+                {
+                    "protocolSessionId": "1e075032-2a4c-4795-ad71-28f7517ba2a0",
+                    "account": 123123102,
+                    "date": "2025-05-15T13:00:20.001",
+                    "duration": 58.0,
+                    "used": 526872,
+                    "losses": 0,
+                    "requests": 3,
+                    "handler": "CNT"
+                },
+                {
+                    "protocolSessionId": "5189ef95-7303-4d0e-a47e-7bb2798864a3",
+                    "account": 123123102,
+                    "date": "2025-05-15T13:51:31.001",
+                    "duration": 628.0,
+                    "used": 105001220,
+                    "losses": 0,
+                    "requests": 6,
+                    "handler": "CNT"
+                },
+                {
+                    "protocolSessionId": "6b2340ba-3d3c-4b76-a287-0c02237e4c3c",
+                    "account": 123123102,
+                    "date": "2025-05-15T15:14:52.001",
+                    "duration": 5.0,
+                    "used": 35310,
+                    "losses": 0,
+                    "requests": 3,
+                    "handler": "CNT"
+                },
+                {
+                    "protocolSessionId": "b4603dd1-05f1-4d69-a227-3b755bf6061b",
+                    "account": 123123102,
+                    "date": "2025-05-15T15:15:39.001",
+                    "duration": 137931.0,
+                    "used": 5793102,
+                    "losses": 0,
+                    "requests": 3,
+                    "handler": "CNT"
+                },
+                {
+                    "protocolSessionId": "fb999d60-a326-4b1b-8b8f-871a00fb998c",
+                    "account": 123123102,
+                    "date": "2025-05-15T17:52:47.001",
+                    "duration": 24497.0,
+                    "used": 318461,
+                    "losses": 0,
+                    "requests": 3,
+                    "handler": "CNT"
+                },
+                {
+                    "protocolSessionId": "a41ce352-98bc-4075-90e7-ec0939aac0aa",
+                    "account": 123123102,
+                    "date": "2025-05-16T02:31:20.001",
+                    "duration": 580.0,
+                    "used": 43872940,
+                    "losses": 0,
+                    "requests": 3,
+                    "handler": "CNT"
+                }
+            ],
+            "phase_two": [
+                {
+                    "protocolSessionId": "c62c30dd-97ed-4b60-a109-727895d9e54e",
+                    "account": 123123102,
+                    "duration": 20,
+                    "date": "2025-05-16T10:37:36.001",
+                    "used": 5986260,
+                    "losses": 0,
+                    "requests": 2,
+                    "handler": "CTG"
+                }
+            ]
+        }
+    }
+}

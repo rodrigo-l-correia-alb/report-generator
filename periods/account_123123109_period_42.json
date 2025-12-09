@@ -1,0 +1,26 @@
+{
+    "phase_one": [
+        {
+            "protocolSessionId": "65e0fd37-4af2-4d91-acbc-e88ccc52317f",
+            "account": 123123109,
+            "date": "2025-04-22T02:09:52.001",
+            "duration": 30520.0,
+            "used": 104917618,
+            "losses": 0,
+            "requests": 6,
+            "handler": "CNT"
+        }
+    ],
+    "phase_two": [
+        {
+            "protocolSessionId": "5720e3fe-f889-4949-bf62-8c2577d8fad4",
+            "account": 123123109,
+            "duration": 20,
+            "date": "2025-04-22T04:47:52.001",
+            "used": 12966270,
+            "losses": 0,
+            "requests": 2,
+            "handler": "CTG"
+        }
+    ]
+}

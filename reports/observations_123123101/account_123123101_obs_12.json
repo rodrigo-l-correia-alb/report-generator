@@ -1,0 +1,116 @@
+{
+    "observation": {
+        "previous_period_summary": {
+            "cnt_percentage": 89.19,
+            "cnt_requests": 66,
+            "losses_percentage": 0.0,
+            "losses_volume": 0
+        },
+        "current_period": {
+            "phase_one": [
+                {
+                    "protocolSessionId": "5679b598-87d7-4154-adfd-79959f5cb608",
+                    "account": 123123101,
+                    "date": "2025-03-12T17:18:45.001",
+                    "duration": 381.0,
+                    "used": 7424166,
+                    "losses": 0,
+                    "requests": 3,
+                    "handler": "CNT"
+                },
+                {
+                    "protocolSessionId": "d4e14560-366e-483d-bec8-b6ae728fdd8d",
+                    "account": 123123101,
+                    "date": "2025-03-12T18:28:10.001",
+                    "duration": 146.0,
+                    "used": 14574304,
+                    "losses": 0,
+                    "requests": 3,
+                    "handler": "CNT"
+                },
+                {
+                    "protocolSessionId": "2940790a-92f8-43f7-89a1-9a4327ae693b",
+                    "account": 123123101,
+                    "date": "2025-03-12T18:30:51.001",
+                    "duration": 8.0,
+                    "used": 29520,
+                    "losses": 29520,
+                    "requests": 3,
+                    "handler": "CNT"
+                },
+                {
+                    "protocolSessionId": "1f6f8e47-4d3a-4bfb-b492-dcd89365b172",
+                    "account": 123123101,
+                    "date": "2025-03-12T22:57:12.001",
+                    "duration": 9630.0,
+                    "used": 109300374,
+                    "losses": 0,
+                    "requests": 6,
+                    "handler": "CNT"
+                },
+                {
+                    "protocolSessionId": "40902742-cf61-41ca-b284-ee78313a117f",
+                    "account": 123123101,
+                    "date": "2025-03-13T01:38:43.001",
+                    "duration": 9514.0,
+                    "used": 211025288,
+                    "losses": 0,
+                    "requests": 10,
+                    "handler": "CNT"
+                },
+                {
+                    "protocolSessionId": "763eb4b0-0360-4061-a2a8-1a9a84ae748e",
+                    "account": 123123101,
+                    "date": "2025-03-13T04:43:39.001",
+                    "duration": 7475.0,
+                    "used": 55868150,
+                    "losses": 0,
+                    "requests": 3,
+                    "handler": "CNT"
+                },
+                {
+                    "protocolSessionId": "25a809e9-47a7-45b1-849e-354bcfc179b6",
+                    "account": 123123101,
+                    "date": "2025-03-13T07:19:34.001",
+                    "duration": 8.0,
+                    "used": 19146144,
+                    "losses": 0,
+                    "requests": 3,
+                    "handler": "CNT"
+                },
+                {
+                    "protocolSessionId": "ef511592-7c6e-41e1-9d9c-be2e501c4f17",
+                    "account": 123123101,
+                    "date": "2025-03-13T07:19:46.001",
+                    "duration": 1.0,
+                    "used": 298278,
+                    "losses": 0,
+                    "requests": 3,
+                    "handler": "CNT"
+                }
+            ],
+            "phase_two": [
+                {
+                    "protocolSessionId": "108c78cd-ac19-4b78-b1a4-45ae628a4745",
+                    "account": 123123101,
+                    "duration": 20,
+                    "date": "2025-03-13T13:02:22.001",
+                    "used": 0,
+                    "losses": 0,
+                    "requests": 1,
+                    "handler": "CTG"
+                },
+                {
+                    "protocolSessionId": "4c717c2c-7dfa-4d36-b4d8-91ef5d4e7ceb",
+                    "account": 123123101,
+                    "duration": 20,
+                    "date": "2025-03-13T13:13:19.001",
+                    "used": 0,
+                    "losses": 0,
+                    "requests": 1,
+                    "handler": "CTG"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "phase_one": [
+        {
+            "protocolSessionId": "fa5230f7-b7ca-4279-96e5-dd6293d69323",
+            "account": 123123109,
+            "date": "2025-03-10T20:13:24.001",
+            "duration": 14.0,
+            "used": 994,
+            "losses": 0,
+            "requests": 3,
+            "handler": "CNT"
+        },
+        {
+            "protocolSessionId": "807f7c82-4536-40b1-91e4-c3f884c0e79e",
+            "account": 123123109,
+            "date": "2025-03-10T21:51:12.001",
+            "duration": 64.0,
+            "used": 64,
+            "losses": 0,
+            "requests": 3,
+            "handler": "CNT"
+        },
+        {
+            "protocolSessionId": "dd7b14f2-78fb-432a-8e3f-00e36100cf94",
+            "account": 123123109,
+            "date": "2025-03-11T09:03:46.001",
+            "duration": 217.0,
+            "used": 189007,
+            "losses": 0,
+            "requests": 3,
+            "handler": "CNT"
+        },
+        {
+            "protocolSessionId": "8d11be44-6a72-4473-91ed-311b2b2ae87c",
+            "account": 123123109,
+            "date": "2025-03-11T09:12:30.001",
+            "duration": 1331.0,
+            "used": 106751114,
+            "losses": 0,
+            "requests": 6,
+            "handler": "CNT"
+        }
+    ],
+    "phase_two": [
+        {
+            "protocolSessionId": "48606e98-507f-4028-b1c6-ed8928b90a2a",
+            "account": 123123109,
+            "duration": 20,
+            "date": "2025-03-11T09:26:42.001",
+            "used": 297622747,
+            "losses": 0,
+            "requests": 3,
+            "handler": "CTG"
+        },
+        {
+            "protocolSessionId": "544ad8af-f6cf-46b0-8d59-b01794b40b2d",
+            "account": 123123109,
+            "duration": 20,
+            "date": "2025-03-11T17:14:18.001",
+            "used": 107702784,
+            "losses": 0,
+            "requests": 2,
+            "handler": "CTG"
+        },
+        {
+            "protocolSessionId": "998fefca-2c6f-4719-bc67-fdc79baf9bdb",
+            "account": 123123109,
+            "duration": 20,
+            "date": "2025-03-11T21:52:41.001",
+            "used": 82362072,
+            "losses": 0,
+            "requests": 2,
+            "handler": "CTG"
+        }
+    ]
+}

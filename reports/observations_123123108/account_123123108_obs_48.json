@@ -1,0 +1,46 @@
+{
+    "observation": {
+        "previous_period_summary": {
+            "cnt_percentage": 3.37,
+            "cnt_requests": 6,
+            "losses_percentage": 0.0,
+            "losses_volume": 0
+        },
+        "current_period": {
+            "phase_one": [
+                {
+                    "protocolSessionId": "06659bdc-1395-4f29-8410-14db7a13c1e0",
+                    "account": 123123108,
+                    "date": "2025-05-03T16:30:22.001",
+                    "duration": 4238.0,
+                    "used": 39099788,
+                    "losses": 0,
+                    "requests": 3,
+                    "handler": "CNT"
+                }
+            ],
+            "phase_two": [
+                {
+                    "protocolSessionId": "886469c8-25fc-4652-8807-b39a975ae652",
+                    "account": 123123108,
+                    "duration": 20,
+                    "date": "2025-05-03T16:59:45.001",
+                    "used": 327944935,
+                    "losses": 0,
+                    "requests": 3,
+                    "handler": "CTG"
+                },
+                {
+                    "protocolSessionId": "3a2d5a10-6f4b-41d2-a6a0-b35fbfb6eca8",
+                    "account": 123123108,
+                    "duration": 20,
+                    "date": "2025-05-03T17:00:14.001",
+                    "used": 342692,
+                    "losses": 0,
+                    "requests": 2,
+                    "handler": "CTG"
+                }
+            ]
+        }
+    }
+}
