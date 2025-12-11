@@ -21,8 +21,7 @@ for session_id, items in grouped.items():
 
         ticket = {
             "protocolSessionId": session_id,
-            "account": items[0]["account"],
-            "serviceReferenceId": items[0]["serviceReferenceId"],
+            "account": items[0]["serviceReferenceId"],
             "duration": items[0]["sessionDurationSeconds"],
             "date": items[0]["userEventTimestamp"],
             "used": items[0]["usedQuota"],
@@ -46,9 +45,8 @@ for session_id, items in grouped.items():
 
     aggregated = {
         "protocolSessionId": session_id,
-        "account": items[0]["account"],
-        "serviceReferenceId": items[0]["serviceReferenceId"],
-        "date": items[0]["userEventTimestamp"],  # earliest
+        "account": items[0]["serviceReferenceId"],
+        "date": items[0]["userEventTimestamp"],
         "duration": duration,
         "used": total_used_quota,
         "losses": total_losses,
@@ -68,7 +66,7 @@ with open("grouped_data.json", "r") as file:
 
 accounts = defaultdict(list)
 for item in grouped_data:
-    account_id = item["serviceReferenceId"]
+    account_id = item["account"]
     accounts[account_id].append(item)
 
 for account_id, items in accounts.items():
