@@ -5,11 +5,11 @@ from glob import glob
 
 def build_observations(account_id):
     period_files = sorted(
-            glob(f"periods/account_{account_id}_period_*.json"),
+            glob(f"periods_{account_id}/account_{account_id}_period_*.json"),
             key=lambda x: int(x.split("_period_")[1].split(".")[0])
     )
 
-    os.makedirs("reports/observations", exist_ok=True)
+    os.makedirs(f"reports/observations_{account_id}", exist_ok=True)
 
     for i in range(1, len(period_files)):
         with open(period_files[i - 1], "r") as f_prev:
@@ -51,11 +51,11 @@ def build_observations(account_id):
             }
         }
 
-        filename = f"reports/observations/account_{account_id}_obs_{i + 1}.json"
+        filename = f"reports/observations_{account_id}/account_{account_id}_obs_{i + 1}.json"
         with open(filename, "w") as f_out:
             json.dump(observation, f_out, indent=4)
 
         print(f"Created {filename}.")
 
 
-build_observations("500000005_67237c0efdc693ca01192ab2")
+build_observations("500000502_67237c0efdc693ca01192ab2")

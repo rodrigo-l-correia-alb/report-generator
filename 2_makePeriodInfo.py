@@ -44,13 +44,13 @@ def split_into_periods(account_file):
         })
 
     account_id = sessions[0]["serviceReferenceId"]
-    os.makedirs("periods", exist_ok=True)
+    os.makedirs(f"periods_{account_id}", exist_ok=True)
 
     for idx, period in enumerate(periods, start=1):
-        filename = f"periods/account_{account_id}_period_{idx}.json"
+        filename = f"periods_{account_id}/account_{account_id}_period_{idx}.json"
         with open(filename, "w") as f:
             json.dump(period, f, indent=4)
         print(f"Saved {filename}.")
 
 
-split_into_periods("account_500000005_67237c0efdc693ca01192ab2.json")
+split_into_periods("account_500000502_68f667418691598e5bb2243e.json")
