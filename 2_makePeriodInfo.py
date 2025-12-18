@@ -53,4 +53,11 @@ def split_into_periods(account_file):
         print(f"Saved {filename}.")
 
 
-split_into_periods("account_500000502_67237c0efdc693ca01192ab2.json")
+if __name__ == "__main__":
+    for fname in os.listdir("."):
+        if fname.startswith("account") and fname.endswith(".json"):
+            try:
+                print(f"Processing {fname}...")
+                split_into_periods(fname)
+            except Exception as e:
+                print(f"Error processing {fname}: {e}")

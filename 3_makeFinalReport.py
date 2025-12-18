@@ -58,4 +58,16 @@ def build_observations(account_id):
         print(f"Created {filename}.")
 
 
-build_observations("500000502_67237c0efdc693ca01192ab2")
+if __name__ == "__main__":
+    for entry in os.listdir("."):
+        if entry.startswith("periods") and os.path.isdir(entry):
+            if entry.startswith("periods_"):
+                account_id = entry[len("periods_"):]
+            else:
+                account_id = entry[len("periods"):].lstrip(" _-") or entry
+
+            try:
+                print(f"Processing account_id '{account_id}' from folder '{entry}'...")
+                build_observations(account_id)
+            except Exception as e:
+                print(f"Error processing {entry}: {e}")

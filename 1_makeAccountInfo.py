@@ -40,7 +40,6 @@ for session_id, items in grouped.items():
     duration = (last_time - first_time).total_seconds()
 
     total_used_quota = sum(i.get("usedQuota", 0) for i in items)
-    total_losses = sum(i.get("lossesAmnt", 0) for i in items)
     total_requests = sum(i.get("sessionRequests", 0) for i in items)
 
     aggregated = {
@@ -49,7 +48,7 @@ for session_id, items in grouped.items():
         "date": items[0]["userEventTimestamp"],
         "duration": duration,
         "used": total_used_quota,
-        "losses": total_losses,
+        "losses": 0,
         "requests": total_requests,
         "handler": "CNT"
     }
